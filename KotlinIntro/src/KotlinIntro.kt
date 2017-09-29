@@ -6,6 +6,7 @@ data class Department(val name: String, val numberOfMembers: Int)
 fun main(args : Array<String>) {
     val student = Student(age = 16, average = 85.0)
     student.average = 5.0
+    println(firstRepeatedChar("Hello"))
 }
 
 /*
